@@ -9,7 +9,11 @@
 # Working node
 erlfunc()
 {
+<<<<<<< HEAD
 	erl -sname gpnode@astra -pa ebin deps/*/ebin  -s init_gproc
+=======
+  erl -sname gpnode@astra -pa ebin deps/*/ebin  -s init_gproc
+>>>>>>> 415f72f512c80a24324be2a6ec5fb3fb17c1b73d
 	return 0
 }
 
